@@ -1,16 +1,13 @@
 ;******************************************************************************
-; fgen.ncl
-; Philippe Papin (ppapin@albany.edu)
-; Last Updated: Oct 2nd, 2014
+; fgen_globe.ncl
+; Alicia Bentley (abentley1110@gmail.com)
+; Last Updated: 30 October 2016
 ; 
-; My attempt to calculate 2 dimensional frontogenesis (Petterson Frontogenesis)
+; Petterson Frontogenesis
 ;
 ; Calculated using this guide: http://www-das.uwyo.edu/~geerts/atsc5160/gem7.pdf
 ;
 ; Variables Needed: U,V,T,P
-;
-; Updated from "uber" jet calculations made in early 2014
-;
 ;******************************************************************************
 
 undef ("fgen_globe")
